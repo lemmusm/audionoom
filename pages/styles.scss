@@ -1,0 +1,107 @@
+nav {
+  background: none;
+}
+nav a {
+  display: inline-block;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.clip {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background: #8756ca;
+  color: white;
+}
+picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1;
+  flex-direction: column;
+  width: auto;
+  padding: 10%;
+}
+picture div {
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.player {
+  padding: 30px;
+  background: rgba(0,0,0,0.3);
+  text-align: center;
+}
+h3 {
+  margin: 0;
+}
+h6 {
+  margin: 0;
+  margin-top: 1em;
+}
+audio {
+  margin-top: 2em;
+  width: 100%;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+// chanel
+.modal{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:9999;
+}
+  .channels {
+    display: grid;
+    grid-gap: 15px;
+    padding: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+  h1{
+    font-weight:600px;
+    padding:15px;
+  }
+  a.channel {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+    text-decoration: none;
+  }
+  .channel img {
+    border-radius: 3px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+    width: 100%;
+  }
+  h2 {
+    padding: 5px;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+  }
+  // error not found
+  .message {
+    padding: 100px 30px;
+    text-align: center;
+    height: 70vh;
+  }
+  h1 {
+    margin-bottom: 2em;
+  }
+  a {
+    color: #8756ca;
+  }

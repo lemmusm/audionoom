@@ -1,0 +1,27 @@
+.header{
+  height: 100px;
+  background: #A32D34;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.item{
+  list-style-type: none;
+  padding-right: 10px;
+}
+.item:hover{
+  font-size: 20px;
+}
+// footer
+footer{
+  height: 100px;
+  background: #A32D34;
+  color: white;
+}
