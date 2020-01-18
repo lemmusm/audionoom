@@ -3,7 +3,7 @@ import { Link } from '../../routes';
 import Head from 'next/head';
 import css from './styles.scss';
 import img from '../../public/cuadro_verde.png';
-import { image } from '../../public/image';
+import ImagenLogo from '../../public/image';
 
 export default class Header extends Component {
   render() {
@@ -17,7 +17,7 @@ export default class Header extends Component {
         </Head>
         <header className={css.header}>
           <div className={css.logo}>
-            <img src={img} alt='logo' />
+            <ImagenLogo />
           </div>
           <ul className={css.items}>
             <li className={css.item}>Hola</li>
